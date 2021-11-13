@@ -1,0 +1,21 @@
+@mixin text($size: null, $line-height: null, $weight: null, $color: null, $text-decoration: null) {
+    font-size: $size;
+    line-height: $line-height;
+    font-weight: $weight;
+    text-decoration: $text-decoration;
+    color: $color;
+}
+
+@mixin flex($flex: null, $direction: null, $wrap: null, $justify: null, $align-items: null, $align-content: null) {
+    display: $flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align-items;
+    align-content: $align-content;
+}
+
+@mixin measure($width: null, $height: null) {
+    width: $width;
+    height: $height;
+}
