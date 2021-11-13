@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px 100px 10px 0;
+  background-color: #334e9e;
+  width: 40%;
+  height: 120px;
+}
+
+nav .nav-links {
+  width: 60%;
+  height: 137px;
+}
+
+nav .nav-links .nav-top-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+}
+
+nav .nav-links .nav-top-links .info-top-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-links .nav-top-links .info-top-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 25px 15px;
+}
+
+nav .nav-links .nav-top-links .info-top-links ul a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(106, 106, 106, 0.9);
+}
+
+nav .nav-links .nav-top-links .info-top-links ul a:hover {
+  color: black;
+}
+
+nav .nav-links .nav-top-links .info-top-links ul li {
+  margin-left: 40px;
+}
+
+nav .nav-links .nav-top-links .langs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-links .nav-top-links .langs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 25px 15px;
+}
+
+nav .nav-links .nav-top-links .langs ul a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+nav .nav-links .nav-top-links .langs ul li {
+  margin-left: 10px;
+}
+
+nav .nav-links .nav-top-links .langs ul li i {
+  color: #334e9e;
+}
+
+nav .nav-links .nav-top-links .langs ul li i:hover {
+  color: rgba(51, 78, 158, 0.9);
+}
+
+nav .nav-links .nav-bottom-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #00acec;
+  height: 60px;
+}
+
+nav .nav-links .nav-bottom-links .info-bottom-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-links .nav-bottom-links .info-bottom-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 25px;
+}
+
+nav .nav-links .nav-bottom-links .info-bottom-links ul a {
+  font-size: 20px;
+  line-height: 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+nav .nav-links .nav-bottom-links .info-bottom-links ul a span {
+  font-size: 11px;
+}
+
+nav .nav-links .nav-bottom-links .info-bottom-links ul li {
+  padding: 12px 30px;
+}
+
+nav .nav-links .nav-bottom-links .info-bottom-links ul li:hover {
+  background-color: #334e9e;
+}
+
+nav .nav-links .nav-bottom-links .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 15px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+nav .nav-links .nav-bottom-links .contact a {
+  padding: 0 10px;
+}
+
+nav .nav-links .nav-bottom-links .contact a i {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

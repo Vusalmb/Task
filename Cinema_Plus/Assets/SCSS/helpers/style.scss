@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'helpers/variables';
+@import 'helpers/mixins';
+
+nav{
+    @include flex(flex);
+
+    .logo{
+        @include flex(flex, $justify: flex-end);
+        padding: 10px 100px 10px 0;
+        background-color: #334e9e;
+        @include measure(40%, 120px);
+    }
+
+    .nav-links{
+        @include measure(60%, 137px);
+
+        .nav-top-links{
+            @include flex(flex);
+            @include measure($height: 60px);
+
+            .info-top-links{
+                @include flex(flex, $justify: center, $align-items: center);
+                ul{
+                    @include flex(flex);
+                    list-style: none;
+                    padding: 25px 15px;
+
+                    a{
+                        @include text(16px, $weight: bold, $text-decoration: none, $color: rgba(#6a6a6a, 0.9));
+
+                        &:hover{
+                            @include text($color: black);
+                        }
+                    }
+                    
+                    li{
+                        margin-left: 40px;
+                    }
+                }
+            }
+            
+            .langs{
+                @include flex(flex, $justify: center, $align-items: center);
+                ul{
+                    @include flex(flex);
+                    list-style: none;
+                    padding: 25px 15px;
+
+                    a{
+                        @include text($weight: bold, $text-decoration: none, $color: black);
+                    }
+
+                    li{
+                        margin-left: 10px;
+
+                        i{
+                            @include text($color: #334e9e);
+
+                            &:hover{
+                                @include text($color: rgba(#334e9e, 0.9));
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav-bottom-links{
+            @include flex(flex);
+            background-color: #00acec;
+            @include measure($height: 60px);
+
+            .info-bottom-links{
+                @include flex(flex, $justify: center, $align-items: center);
+
+                ul{
+                    @include flex(flex);
+                    list-style: none;
+                    padding-left: 25px;
+
+                    a{
+                        @include text(20px, 0, $weight: bold, $text-decoration: none, $color: white);
+
+                        span{
+                            @include text(11px);
+                        }
+                    }
+
+                    li{
+                        padding: 12px 30px;
+
+                        &:hover{
+                            background-color: #334e9e;
+                        }
+                    }
+                }
+            }
+
+            .contact{
+                @include flex(flex, $justify: center, $align-items: center);
+                padding: 25px 15px;
+                margin-left: 10px;
+                @include text($weight: bold, $color: white);
+
+                a{
+                    padding: 0 10px;
+
+                    i{
+                        @include text($color: white);
+                    }
+                }
+                
+            }
+        }
+    }
+}
